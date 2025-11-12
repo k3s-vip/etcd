@@ -658,6 +658,7 @@ func NewConfig() *Config {
 		MaxRequestBytes:      DefaultMaxRequestBytes,
 		MaxConcurrentStreams: DefaultMaxConcurrentStreams,
 		WarningApplyDuration: DefaultWarningApplyDuration,
+		WarningUnaryRequestDuration: DefaultWarningUnaryRequestDuration,
 
 		GRPCKeepAliveMinTime:  DefaultGRPCKeepAliveMinTime,
 		GRPCKeepAliveInterval: DefaultGRPCKeepAliveInterval,
